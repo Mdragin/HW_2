@@ -1,0 +1,101 @@
+body{
+
+}
+
+#head{
+    color: white;
+    font-size: xx-large;
+}
+
+ul {
+        display: flex;
+        align-items: stretch; /* Default */
+        justify-content: space-between;
+        width: 100%;
+        background-color: pink;
+        color: black;
+        margin: 0;
+        padding: 0;
+        font-size: x-large;
+        border-style: solid;
+        border-radius: 15px;
+ }
+
+ .box{ 
+	width:100px; 
+	height:100px; 
+    display: inline-flex;
+    flex-wrap: wrap;
+} 
+ 
+.red{ 
+	background:red; 
+} 
+.green{ 
+	background: green; 
+} 
+.blue{ 
+	background: blue; 
+} 
+
+.yellow{
+    background: yellow;
+}
+
+section {
+    padding: 50px;
+    background-color: pink;
+    transition: transform .2s; /* Animation */
+}
+
+.image-1:hover{
+    width: 500px;
+    height: 200px;
+}
+
+.image-2:hover{
+    width: 500px;
+    height: 200px;
+}
+
+.image-3:hover{
+    width: 500px;
+    height: 200px;
+}
+
+.image-4:hover{
+    width: 500px;
+    height: 200px;
+}
+
+nav{
+    background-color: gray;
+    color: white;
+}
+
+a{
+    color: navy;
+}
+
+html{
+    color: navy;
+}
+ 
+@media only screen and (max-width: 1500px) {
+    html, body {                 
+            margin-left:2%;
+            margin-right:2%;                 
+}
+}
+@media only screen and (min-width:1501px) {
+html, body {
+        margin-left:5%;
+        margin-right:5%;
+}
+}
+
+
+
+
+
+
