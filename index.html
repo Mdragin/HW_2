@@ -5,76 +5,136 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 
-<div>
-    <body>
-        <nav class="navbar navbar-expand-lg navbar-fixed-top navbar-light">
-            <div class="col-sm-2"></div>
-            <h2 id="head" class="col-sm-2">Matt Taylor</h2>
-            <div class="col-sm-2"></div>
-            <div class="col-sm-2"></div>
-            <div class="col-sm-2">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#about me">About Me</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#work">Work</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#contact me">Contact Me</a>
-                    </li>
-                </ul>
-                </div>
-                <div class="col-sm-2"</div>
-        
+<nav>
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
     
-        <div class="main">
-    
-            <h1>HW2</h1>
-        </nav>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#portfolio">PORTFOLIO</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <div class="jumbotron text-center">
+    <h1>Matthew Taylor</h1> 
+    <p>"Everyone in this country shoud learn how to program a computer, because it teaches you how to think" Steve Jobs</p> 
+  </div>
             <hr>
     
-            <h2>Hello</h2>
-            <div class="container">
+            <div id="about" class="container-fluid">
                 <div class="row">
-                    <div class="column-md-12">
-                        <div class="content">
-                            <img src="https://www.nationalgeographic.com/content/dam/travel/Guide-Pages/north-america/seattle-travel.adapt.1900.1.jpg" alt="" style="" height="">
-                            <h3>About Me</h3>
-                            <p id="about me">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis dolor id veritatis, tempora rem dolorem distinctio in dignissimos deleniti cumque quisquam delectus repellendus debitis natus optio voluptatem mollitia expedita corporis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure eius illum autem molestias ipsam, quas fugiat nemo odit vero, impedit omnis! Sed, recusandae. Alias tenetur eaque, cum facilis iste culpa?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maxime doloremque iste. At ratione dolorem aliquam molestiae fugiat numquam deleniti reiciendis a perferendis aspernatur, nostrum similique veniam, neque natus sint!</p>
-                        </div>
-                    </div>
+                  <div class="col-sm-8">
+                    <h2>About Me</h2><br>
+                    <h4>Hello! I am a fullstack developer from Seattle, Washington that works with both the front and back ends of a website or application.  </h4><br>
+                    <p>I takle projects that involve databases, building user-facing websites, or even work with clients during the planning phase of projects. I enjoy taking complex problems and turning them into simple and beautiful interface designs. I also love the logic and structure of coding and always strive to write elegant and efficient code, weather it be HTMl, CSS or JS.</p>
+                    <br>
+                    <p>When I'm not coding or designing a website, you'll find me in the gym or streaming on Twitch while playing video games.</p>
+                    <button class="btn btn-default btn-lg">Get in Touch</button>
+                  </div>
+                </div>
+              </div>
+
+              <hr>
                 
-                    <div class="column-md-6">
-                        <div class="column">
-                            <h3>Work</h3>
-                            <p id="work">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa voluptas fugiat repudiandae dolore illo dolorem placeat optio quidem tempore, odit magnam accusamus impedit porro, incidunt quod hic recusandae tenetur! Ex!</p
-                        </div>   <div class="box red"> </div> 
-                                <div class="box green"> </div> 
-                                <div class="box blue"> </div>
-                                <div class="box yellow"></div>
-                                <section class="image">
-                                <div class="image-1"><img src="https://placekitten.com/200/139"></div>
-                                <div class="image-2"><img src="https://placekitten.com/200/139"></div>
-                                <div class="image-3"><img src="https://placekitten.com/200/139"></div>
-                                <div class="image-4"><img src="https://placekitten.com/200/139"></div>
-                                </section>
-                    <div class="column-md-6">
-                        <div class="column">
-                            <h3>Contact Me</h3>
-                            <p id="contact me">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium laudantium recusandae dicta officia sit, molestiae est ullam amet blanditiis vel esse consequuntur quisquam quam eius in voluptate dolor et? Assumenda?</p>
-                        </div>
+>              <div id="portfolio" class="container-fluid text-center bg-grey">
+  <h2>Portfolio</h2><br>
+  <h4>What I have created</h4>
+  <div class="row text-center slideanim">
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="paris.jpg" alt="Paris" width="400" height="300">
+        <p><strong>Paris</strong></p>
+        <p>Yes, we built Paris</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="newyork.jpg" alt="New York" width="400" height="300">
+        <p><strong>New York</strong></p>
+        <p>We built New York</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="sanfran.jpg" alt="San Francisco" width="400" height="300">
+        <p><strong>San Francisco</strong></p>
+        <p>Yes, San Fran is ours</p>
+      </div>
+    </div>
+  </div>
+
+                <div class="row text-center slideanim">
+                  <div class="col-sm-4">
+                    <div class="thumbnail">
+                      <img src="paris.jpg" alt="Paris" width="400" height="300">
+                      <p><strong>Paris</strong></p>
+                      <p>Yes, we built Paris</p>
                     </div>
-                </div>
-                <div class="content">
-                    <h3>Gaming</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus doloremque placeat provident nulla excepturi a, magni ipsam esse illo fugiat tenetur fugit, illum perspiciatis reiciendis facere consectetur blanditiis quasi voluptatibus!</p>
-                </div>
-            </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="thumbnail">
+                      <img src="newyork.jpg" alt="New York" width="400" height="300">
+                      <p><strong>New York</strong></p>
+                      <p>We built New York</p>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="thumbnail">
+                      <img src="sanfran.jpg" alt="San Francisco" width="400" height="300">
+                      <p><strong>San Francisco</strong></p>
+                      <p>Yes, San Fran is ours</p>
+                    </div>
+                  </div>
+                </div><br>
+
+                <hr>
+
+                <div id="contact" class="container-fluid bg-grey">
+                    <h2 class="text-center">CONTACT</h2>
+                    <div class="row">
+                      <div class="col-sm-5">
+                        <p>Contact me and I'll get back to you within 24 hours.</p>
+                        <p><span class="glyphicon glyphicon-map-marker"></span> Seattle, US</p>
+                        <p><span class="glyphicon glyphicon-phone"></span> 425-647-9615</p>
+                        <p><span class="glyphicon glyphicon-envelope"></span> mattctaylor01@gmai.com</p>
+                      </div>
+                      <div class="col-sm-7 slideanim">
+                        <div class="row">
+                          <div class="col-sm-6 form-group">
+                            <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                          </div>
+                          <div class="col-sm-6 form-group">
+                            <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                          </div>
+                        </div>
+                        <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+                        <div class="row">
+                          <div class="col-sm-12 form-group">
+                            <button class="btn btn-default pull-right" type="submit">Send</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
 
             <script src="https://maxcdn.bootstrapcdn.com/bootdtrap/4.0.0/js/bootstrap.min.js"></script>
     
